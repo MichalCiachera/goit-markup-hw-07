@@ -541,7 +541,7 @@ ul {
 .newsletter__input-footer:active {
   border: 1px solid var(--color-two);
 }
-.btn__footer {
+.btn--footer {
   display: flex;
   box-shadow: 0px 4px 4px var(--background-seventeen);
   gap: 24px;
@@ -839,7 +839,7 @@ ul {
 }
 /* </Przyciski filtrów */
 /* <Projekty> */
-.projekts {
+.projects {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -848,27 +848,27 @@ ul {
   justify-content: space-between;
   row-gap: 30px;
 }
-.projekts__box:hover {
+.projects__box:hover {
   background: var(--color-five);
   box-shadow: 0px 1px 1px var(--background-four),
     0px 4px 4px var(--backgraund-twelve), 1px 4px 6px var(--backgraund-thirteen);
 }
-.projekts__cart {
+.projects__cart {
   margin: 0 auto;
   padding: 0;
   width: 370px;
 }
-.projekts__img-box {
+.projects__img-box {
   position: relative;
   overflow: hidden;
 }
-.projekts__img {
+.projects__img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.projekts__description {
+.projects__description {
   position: absolute;
   margin: 0;
   left: 0;
@@ -889,10 +889,10 @@ ul {
   line-height: 1.55;
   letter-spacing: 0.03em;
 }
-.projekts__cart:hover .projekts__description {
+.projects__cart:hover .projects__description {
   transform: translateY(0);
 }
-.projekts__text-box {
+.projects__text-box {
   margin: 0px;
   padding: 0px;
   border-bottom: 1px solid var(--background-three);
