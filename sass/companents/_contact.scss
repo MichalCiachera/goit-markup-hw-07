@@ -1,0 +1,94 @@
+.contact {
+  &--menu {
+    display: flex;
+    gap: 30px;
+    padding-top: 32px;
+    padding-left: 345px;
+    margin: 0;
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: map-get($map: $transition, $key: duration-one);
+    transition-timing-function: map-get(
+      $map: $transition,
+      $key: timing-function-one
+    );
+  }
+  &__link--menu {
+    color: map-get($map: $colors, $key: contact-menu_link);
+    font-weight: map-get($map: $font, $key: Medium);
+  }
+  &__link:hover,
+  &__link:focus {
+    color: map-get($map: $colors, $key: contact-menu_link_focus_hover);
+    outline: none;
+  }
+  &__mail {
+    cursor: pointer;
+  }
+  &__mail--menu {
+    display: flex;
+    gap: 10px;
+  }
+  &__envelope {
+    margin-top: 2px;
+    fill: map-get($map: $colors, $key: contact-menu_link);
+  }
+  &__mail:hover use,
+  &__mail:focus use {
+    fill: map-get($map: $colors, $key: contact-menu_link_focus_hover);
+  }
+  &__mail:hover a,
+  &__mail:focus a {
+    color: map-get($map: $colors, $key: contact-menu_link_focus_hover);
+  }
+  &_tel {
+    cursor: pointer;
+  }
+  &__tel--menu {
+    display: flex;
+    gap: 10px;
+  }
+  &__smartphone {
+    fill: map-get($map: $colors, $key: contact-menu_link);
+  }
+  &__tel:hover use,
+  &:focus use {
+    fill: map-get($map: $colors, $key: contact-menu_link_focus_hover);
+  }
+  &__tel:hover a,
+  &__tel:focus a {
+    color: map-get($map: $colors, $key: contact-menu_link_focus_hover);
+  }
+  &__address {
+    padding: 0;
+    padding-top: 20px;
+  }
+  &__address-text {
+    color: map-get($map: $colors, $key: contact-footer_address-font);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  &__mail--footer {
+    padding: 0;
+    padding-top: 9px;
+  }
+  &__link--footer {
+    color: map-get($map: $colors, $key: contact-footer_link);
+  }
+  &__link--footer:hover,
+  &__link--footer:focus {
+    color: map-get($map: $colors, $key: contact-footer_link-hover-focus);
+  }
+  &__tel--footer {
+    padding: 0;
+    padding-top: 9px;
+  }
+}
