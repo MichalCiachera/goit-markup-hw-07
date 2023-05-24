@@ -1,16 +1,17 @@
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 528px;
-  min-height: 581px;
-  background-color: map-get($map: $colors, $key: form-backgraund);
-  box-shadow: 0px 1px 3px map-get($map: $colors, $key: form-shadow-one),
-    0px 1px 1px map-get($map: $colors, $key: form-shadow-two),
-    0px 2px 1px map-get($map: $colors, $key: form-shadow-three);
-  border-radius: 4px;
-
+  &--box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    min-height: 581px;
+    background-color: map-get($map: $colors, $key: form-background);
+    box-shadow: 0px 1px 3px map-get($map: $colors, $key: form-shadow-one),
+      0px 1px 1px map-get($map: $colors, $key: form-shadow-two),
+      0px 2px 1px map-get($map: $colors, $key: form-shadow-three);
+    border-radius: 4px;
+  }
   &__conteiner-inputs {
     margin-left: 40px;
     margin-right: 40px;

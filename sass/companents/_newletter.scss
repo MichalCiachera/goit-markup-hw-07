@@ -1,6 +1,7 @@
 .newsletter {
-  padding-top: 12px;
-
+  &--box {
+    padding-top: 12px;
+  }
   &__sign-up {
     font-weight: map-get($map: $font, $key: Bold);
     font-size: 14px;

@@ -1,7 +1,8 @@
 .section-our-customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
+  &--box {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   &__list {
     display: flex;
     justify-content: space-between;

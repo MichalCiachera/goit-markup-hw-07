@@ -1,7 +1,6 @@
 .logo {
-  &--logo-menu {
-    padding-top: 24px;
-    padding-bottom: 25px;
+  &--menu {
+    margin-right: 93px;
   }
   &__link {
     font-family: map-get($map: $font, $key: Raleway), sans-serif;

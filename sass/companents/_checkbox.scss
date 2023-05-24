@@ -1,11 +1,12 @@
 .checkbox {
-  position: static;
-  display: inline-flex;
-  width: 448px;
-  justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 30px;
-
+  &--modal {
+    position: static;
+    display: inline-flex;
+    width: 448px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
   &__text {
     font-size: 14px;
     line-height: 1.71;
@@ -36,7 +37,7 @@
     display: block;
     width: 100%;
     margin-top: 4.5px;
-    background-color: map-get($map: $colors, $key: checkbox_label-backgraund);
+    background-color: map-get($map: $colors, $key: checkbox_label-background);
     border: 1px solid map-get($map: $colors, $key: checkbox_label-border);
     border-radius: 2px;
     cursor: pointer;

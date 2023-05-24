@@ -16,6 +16,8 @@ ul {
   padding: 0 15px;
   &--page-menu {
     display: flex;
+    padding-top: 24px;
+    justify-content: space-between;
   }
   &--footer {
     display: flex;

@@ -39,7 +39,7 @@
     padding: 0;
     border: 1px solid map-get($map: $colors, $key: btn-modal_close-border);
     border-radius: 50%;
-    background-color: map-get($map: $colors, $key: btn-modal_close-backgraund);
+    background-color: map-get($map: $colors, $key: btn-modal_close-background);
     fill: map-get($map: $colors, $key: btn-modal_close-fill);
   }
 
@@ -70,7 +70,7 @@
     font-weight: map-get($map: $font, $key: Medium);
     letter-spacing: 0.03em;
     padding: 6px 22px 6px 22px;
-    transition-property: backgraund-color, color, box-shadow;
+    transition-property: background-color, color, box-shadow;
     transition-duration: map-get($map: $transition, $key: duration-one);
     transition-timing-function: map-get(
       $map: $transition,

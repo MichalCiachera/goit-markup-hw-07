@@ -1,8 +1,9 @@
 .section-our-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: map-get($map: $colors, $key: team_backgraund);
-
+  &--box {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: map-get($map: $colors, $key: team_background);
+  }
   &__list {
     display: flex;
     justify-content: space-between;

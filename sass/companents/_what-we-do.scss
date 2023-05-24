@@ -1,6 +1,7 @@
 .section-what-we-do {
-  padding-bottom: 94px;
-
+  &--box {
+    padding-bottom: 94px;
+  }
   &__list {
     display: flex;
     justify-content: space-between;
@@ -23,7 +24,7 @@
     right: 0;
     background-color: map-get(
       $map: $colors,
-      $key: what-we-do_img-title-backgraund
+      $key: what-we-do_img-title-background
     );
     color: map-get($map: $colors, $key: what-we-do_img-title-font);
     bottom: 0;
